@@ -1,0 +1,20 @@
+{
+  "name": "alloy-apidocs-theme",
+  "version": "0.0.3",
+  "description": "API Docs Theme for AlloyUI",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Billiam/alloy-apidocs-theme.git"
+  },
+  "keywords": [
+    "yuidoc-theme"
+  ],
+  "author": "Zeno Rocha <zeno.rocha@liferay.com>",
+  "contributors": [
+      "Billiam <billiamthesecond@gmail.com>"
+  ],
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/Billiam/alloy-apidocs-theme/issues"
+  }
+}
