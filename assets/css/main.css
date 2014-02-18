@@ -686,8 +686,6 @@ kbd .cmd { font-family: Monaco, Helvetica; }
 .apidocs .module-submodule-description p:first-child { margin-top: 0; }
 
 /* -- Sidebar TabView ------------------------------------------------------- */
-#api-tabview { margin-top: 0.6em; }
-
 #api-tabview-filter,
 #api-tabview-panel {
     border: 1px solid #dfdfdf;
@@ -852,6 +850,10 @@ kbd .cmd { font-family: Monaco, Helvetica; }
     color: #ffffff;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
     background-color: #0088cc;
+}
+
+.sidebar .tab a {
+    outline: 0;
 }
 
 /* -- Content --------------------------------------------------------------- */
