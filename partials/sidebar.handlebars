@@ -2,7 +2,7 @@
     <h2 class="off-left">APIs</h2>
     <div id="api-tabview">
         <ul class="nav nav-tabs">
-            <li><a href="#api-classes">Classes</a></li>
+            <li class="active tab-selected"><a href="#api-classes">Classes</a></li>
             <li><a href="#api-modules">Modules</a></li>
         </ul>
 
@@ -10,8 +10,8 @@
             <input type="search" id="api-filter" placeholder="Type to filter APIs">
         </div>
 
-        <div id="api-tabview-panel">
-            <ul id="api-classes" class="apis classes tab-pane">
+        <div id="api-tabview-panel" class="tab-content">
+            <ul id="api-classes" class="apis classes tab-pane active">
             {{#classes}}
                 <li><a href="{{../projectRoot}}classes/{{name}}.html">{{displayName}}</a></li>
             {{/classes}}
