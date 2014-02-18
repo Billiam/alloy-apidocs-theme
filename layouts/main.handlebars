@@ -24,7 +24,11 @@
         <div class="navbar-inner">
             <h1 class="brand">
                 <a href="/">
+                {{#if projectLogo}}
+                    <img alt="{{projectName}}" src="{{projectLogo}}" title="{{projectName}}">
+                {{else}}
                     <img alt="{{projectName}}" src="{{projectAssets}}/img/logo-small.png" title="{{projectName}}">
+                {{/if}}
                 </a>
             </h1>
             <div class="nav">
