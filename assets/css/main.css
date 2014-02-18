@@ -763,12 +763,6 @@ kbd .cmd { font-family: Monaco, Helvetica; }
     text-decoration: none;
 }
 
-.api-list-item a:hover,
-.api-list-item a:focus {
-    font-weight: bold;
-    text-shadow: 1px 1px 1px #fff;
-}
-
 .apis .message { color: #888; }
 .apis .result a { padding: 3px 5px 2px; }
 
